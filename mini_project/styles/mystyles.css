@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 
-h1, p, table{
+h1, p, table, ol{
     color: white;
 }
 
@@ -23,11 +23,13 @@ p.start{
     font-size: large;
     background-color: blueviolet;
     margin-bottom: 50px;
+    text-align-last: center;
 }
 
 p.second{
     background-color: cadetblue;
     padding: 50px;
+    text-align: justify;
 }
 
 .border{
@@ -50,9 +52,53 @@ div.third{
     background-size: cover;
 }
 
-table.fourth{
+table.fourth, th, td{
     border: 1px solid white;
+    border-collapse: collapse;
 }
-th, td{
-    border: inherit;
+
+table{
+    width: 500px;
+    margin: 30px;
+    background-color: black;
+}
+td{
+    text-align: center;
+}
+
+ol li{
+    padding: 10px;
+}
+
+a.html:link{
+    color: red;
+}
+
+a.html:visited{
+    color: green;
+}
+
+a.html:hover{
+    color: hotpink;
+}
+
+a.html:active{
+    color: white;
+}
+
+a.javascript:link, a.javascript:visited{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    text-decoration: none;
+}
+
+a.javascript:hover, a.javascript:active{
+    border: 1px solid yellow;
+    padding: 10px;
+    color: yellow;
+    text-align: center;
+    background-color: red;
 }
