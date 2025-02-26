@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 
-h1, p{
+h1, p, table{
     color: white;
 }
 
@@ -48,4 +48,11 @@ div.third{
     width: 50%;
     background-image: url("/mini_project/assets/gene-dizon-gTgBFGbFpNw-unsplash.jpg");
     background-size: cover;
+}
+
+table.fourth{
+    border: 1px solid white;
+}
+th, td{
+    border: inherit;
 }
