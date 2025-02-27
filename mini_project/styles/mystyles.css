@@ -24,6 +24,8 @@ p.start{
     background-color: blueviolet;
     margin-bottom: 50px;
     text-align-last: center;
+    max-width: 1000px;
+    min-width: 500px;
 }
 
 p.second{
@@ -68,6 +70,7 @@ td{
 
 ol li{
     padding: 10px;
+    display: inline;
 }
 
 a.html:link{
@@ -101,4 +104,23 @@ a.javascript:hover, a.javascript:active{
     color: yellow;
     text-align: center;
     background-color: red;
+}
+
+div.posisi{
+    border: 2px white solid;
+    position: relative;
+    bottom: 50px;
+}
+
+div.posisi2{
+    background-color: darkgray;
+    border: white solid;
+    border-width: 0px 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+div.starter{
+    margin-top: 70px;
 }
