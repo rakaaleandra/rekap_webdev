@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 
-h1, p, table, ol{
+h1, p, table, ol, div{
     color: white;
 }
 
@@ -124,18 +124,26 @@ div.posisi2{
 div.starter{
     margin-top: 70px;
 }
+
 div.fifth{
+    width: 200px;
     border: 2px solid white;
-    padding: 20px;
+    /* display: inline; */
+}
+
+div.fifth p{
+    background-color: red;
+    border: 2px solid white;
+    /* display: none; */
     width: 200px;
     height: 100px;
     overflow: scroll;
-    background-color: black;
-    display: block;
+    padding: 20px;
+    visibility: hidden;
 }
 
 div.fifth:hover p{
-    background-color: red;
-    border: 2px solid white;
-    display: none;
+    display: block;
+    visibility: visible;
 }
+

@@ -38,3 +38,30 @@ let person = {
 
 let rasen = person.fullName("Rasen", "dria");
 document.getElementById("demo3").innerHTML = rasen;
+
+function myFunction4(){
+    window.alert("halo");
+}
+
+let pidio = document.getElementById("pidio");
+let mulai = document.getElementById("mulai");
+let berhenti = document.getElementById("berhenti");
+let stop = document.getElementById("stop");
+
+function playIt(){
+    if(pidio.paused){
+        pidio.play();
+        mulai.src="/mini_project/assets/Download - Icon Design - Pause Button Transparent PNG.jpg";
+    } else if(pidio.ended()){
+        mulai.src="/mini_project/assets/Download - Icon Design - Pause Button Transparent PNG.jpg";
+    } else{
+        mulai.src="/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg";
+        pidio.pause();
+    }
+}
+
+const domain = document.getElementById("dom1");
+const p1 = document.createElement("p");
+const pIsi = document.createTextNode("Dingin tetapi tidak kejam");
+p1.appendChild(pIsi);
+domain.appendChild(p1);

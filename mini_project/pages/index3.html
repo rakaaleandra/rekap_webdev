@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Latihan javascript</title>
     <link rel="icon" href="/mini_project/assets/js.png">
-    <script src="/mini_project//scripts/myscripts.js"></script>
+    <link rel="stylesheet" href="/mini_project/styles/mystyles2.css">
 </head>
 <body>
     <div>
@@ -19,11 +19,30 @@
         <button type="button" onclick="myFunction2()"><i>Click</i> disini juga</button>
         <button type="button" onclick="myfunction3()"><i>Click</i> disini juga</button>
     </div>
+    <hr>
     <div>
         <p id="demo2">
             iubibuib
         </p>
         <p id="demo3"></p>
+    </div>
+    <div style="margin: 30px; width: 500px;">
+        <p style= "color: white; padding: 15px; border: solid 1px white; background-color: black; text-align: center; border-radius: 20px; outline: 1px solid black;" onmouseover="myFunction4()">Hover pada paragraf ini dan lihat <i>magic</i>-nya</p>
+    </div>
+    <hr>
+    <div>
+        <video src="/mini_project/assets/2024-12-07 14-52-28.mp4" controls width="900" id="pidio"></video>
+        <br>
+        <img src="/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg" alt="" id="mulai" width="50" onclick="playIt()">
+        <img src="/mini_project/assets/Download - Icon Design - Pause Button Transparent PNG.jpg" alt="" id="berhenti" width="50" onclick="pauseIt()">
+        <img src="/mini_project/assets/Стоп знак вектор красный значок предупреждение или отсутствие ввода запрещенного круга и символ линии PNG , значок, сим.jpg" alt="" id="stop" width="50" onclick="stopIt()">
+    </div>
+    <hr>
+    <div>
+        <h1>Berikut yaitu latihan DOM</h1>
+        <div id="dom1">
+
+        </div>
     </div>
     <div>
         <ol>
@@ -31,5 +50,7 @@
             <li><a href="/mini_project//pages/index2.html">CSS</a></li>
         </ol>
     </div>
+
+    <script src="/mini_project/scripts/myscripts.js"></script>
 </body>
 </html>
