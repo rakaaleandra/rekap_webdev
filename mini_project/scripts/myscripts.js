@@ -48,16 +48,22 @@ let mulai = document.getElementById("mulai");
 let berhenti = document.getElementById("berhenti");
 let stop = document.getElementById("stop");
 
+pidio.addEventListener("ended", function(){
+    mulai.src="/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg";
+})
+
 function playIt(){
     if(pidio.paused){
-        pidio.play();
-        mulai.src="/mini_project/assets/Download - Icon Design - Pause Button Transparent PNG.jpg";
-    } else if(pidio.ended()){
+        pidio.play(); 
         mulai.src="/mini_project/assets/Download - Icon Design - Pause Button Transparent PNG.jpg";
     } else{
-        mulai.src="/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg";
         pidio.pause();
+        mulai.src="/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg";
     }
+}
+
+function stopIt(){
+    pidio.currentTime = 0;
 }
 
 const domain = document.getElementById("dom1");
