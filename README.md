@@ -8,5 +8,5 @@ Bila ada yang salah dalam penyampaian aku atau ada kata yang dipakainya kurang t
 
 ### Berikut Social Account Dari Dosen dan Asdos:
 - Afrizal Doewes | [LinkedIn](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://id.linkedin.com/in/afrizal-doewes-b19a2344&ved=2ahUKEwjQk7CMks-LAxUg3TgGHWIuLhEQFnoECA0QAQ&usg=AOvVaw3H8E4-sDq0eY1wY-YkFKdM)
-- Riyaldi Hasan Setiawan | [LinkedIn](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://id.linkedin.com/in/riyaldi%3Ftrk%3Dpeople-guest_people_search-card&ved=2ahUKEwj329Ofkc-LAxXuoWMGHX3oJUsQFnoECBEQAQ&usg=AOvVaw3ihf43OY50zgUuFHXUV4jU), [Github](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/riyhs&ved=2ahUKEwj329Ofkc-LAxXuoWMGHX3oJUsQFnoECCEQAQ&usg=AOvVaw10j7afG8FSItcNt3E2Y5O0)
-- ...
+- Salsa Rizky Saputri | [LinkedIn](https://www.linkedin.com/in/salsarizkisaputri?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium), [Github](https://github.com/salsarizkii)
+- Ridhlo Abdullah Ulinnuha | [LinkedIn](https://www.linkedin.com/in/ridlo-abdullah-ulinnuha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app), [Github](https://github.com/Ridlo543)
