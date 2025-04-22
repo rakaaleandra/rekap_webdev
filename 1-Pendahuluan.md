@@ -36,13 +36,38 @@ Tujuan Utama:
 
 **URI** (Uniform Resource Identifier): Superset dari URN dan URL. mengidentifikasi resource dan membedakan setiap resource berdasarkan nama, lokasi, atau keduanya, contoh <code>urn:isbn:0451450523</code>
 
-elemen sintaksis URI:
-- **Scheme** : Informasi nama host atau alamat IP dari server, contoh <code>www.exmaple.com</code>
-- **userinfo**
-- **Host**
-- **Port**
-- **Path**
-- **Fragment**
-
 **URL** (Uniform Resource Locator): tipe URI spesifik yang menyertakan alamat dan protokol akses, contoh <code>https://www.example.com/index.html</code>
 
+elemen sintaksis URL:
+- **Scheme** : protokol yang digunakan untuk mengakses resource, contoh **HTTP**, **HTTPS**
+- **Authority** : Komponen ini bersifat opsional, diawali dengan dua garis miring dan diakhiri dengan satu garis miring, tanda tanya, atau tanda pagar. Berikut 3 sub-komponennya:
+  - **userinfo** : berisi username dan password yang dipisahkan oleh titik dua.
+  - **Host** : terdiri dari alamat IP atau nama yang terdaftar, contoh <code>www.google.com</code>
+  - **Port** : protokol yang digunakan untuk menghubungkan server. Diawali dengan titik dua.
+- **Path** : Jalur berisi urutan segmen data yang menunjukkan lokasi resource dalam struktur direktori
+- **Query** : Komponen yang bersifat opsional, berisi string query data non-hierarkis. Query seringnya berupa string pasangan key=value. Komponen ini diawali dengan tanda tanya. Query berfungsi untuk **mengirimkan data tambahan ke server**
+- **Fragment** : Komponen opsional ini mencakup pengidentifikasi fragmen yang memberikan arah ke resource sekunder. Contoh <code>https://example.org/test/test1?search=test-question<bold>#part2</bold></code>
+
+![URL](/assets/URL.png)
+
+## Port yang Mendunia
+
+- **Port 80**: HTTP - Menampilkan halaman web
+- **Port**: HTTPS - Komunkasi aman melalui HTTP
+- **Port**: SMTP - Pengeriman email
+- **Port**: SSH - Login jarak jauh yang aman dan transfer file
+- **Port**: FTP - Transfer file antara klien dan server
+
+## HTTP & HTTPS
+
+**HTTP** (Hypertext Transfer Protocol): Protokol komunikasi antar klien dan server dalam pengiriman halaman web.
+
+![HTTP](/assets/HTTP.png)
+
+**HTTPS**: Versi aman dari HTTP, dilindungi dengan SSL/TLS.
+
+![HTTPS](/assets/HTTPS.png)
+
+## HTTP Response Code
+
+![HTTP Response Code](/assets/HTTPStatusCodes.png)
