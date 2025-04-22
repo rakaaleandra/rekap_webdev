@@ -48,7 +48,7 @@ elemen sintaksis URL:
 - **Query** : Komponen yang bersifat opsional, berisi string query data non-hierarkis. Query seringnya berupa string pasangan key=value. Komponen ini diawali dengan tanda tanya. Query berfungsi untuk **mengirimkan data tambahan ke server**
 - **Fragment** : Komponen opsional ini mencakup pengidentifikasi fragmen yang memberikan arah ke resource sekunder. Contoh <code>https://example.org/test/test1?search=test-question<bold>#part2</bold></code>
 
-![URL](/assets/URL.png)
+![URL](/assets/Materi_1/URL.png)
 
 ## Port yang Mendunia
 
@@ -62,12 +62,12 @@ elemen sintaksis URL:
 
 **HTTP** (Hypertext Transfer Protocol): Protokol komunikasi antar klien dan server dalam pengiriman halaman web.
 
-![HTTP](/assets/HTTP.png)
+![HTTP](/assets/Materi_1/HTTP.png)
 
 **HTTPS**: Versi aman dari HTTP, dilindungi dengan SSL/TLS.
 
-![HTTPS](/assets/HTTPS.png)
+![HTTPS](/assets/Materi_1/HTTPS.png)
 
 ## HTTP Response Code
 
-![HTTP Response Code](/assets/HTTPStatusCodes.png)
+![HTTP Response Code](/assets/Materi_1/HTTPStatusCodes.png)

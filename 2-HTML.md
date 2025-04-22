@@ -13,7 +13,7 @@ Dokumen HTML dimulai dengan deklarasi `<!DOCTYPE html>`, lalu diikuti elemen:
 - `<head>`: berisi informasi metadata.
 - `<body>`: berisi konten halaman.
 
-![HTML](/assets/HTMLStructure.png)
+![HTML](/assets/Materi_2/HTMLStructure.png)
 
 ### Elemen Dalam `<head>`
 
@@ -31,7 +31,7 @@ Dokumen HTML dimulai dengan deklarasi `<!DOCTYPE html>`, lalu diikuti elemen:
 - **Tag**: Bagian pembuka dan penutup elemen, contoh `<p>` dan `</p`>.
 - **Atribut**: Memberikan informasi tambahan, misal href, src, alt.
 
-![Element](/assets/Element.png)
+![Element](/assets/Materi_2/Element.png)
 
 ### Text Formatting
 
@@ -49,13 +49,13 @@ Dokumen HTML dimulai dengan deklarasi `<!DOCTYPE html>`, lalu diikuti elemen:
 
 **Ordered List** (berurutan): `<ol>` dengan item `<li>`. Berikut contohnya:
 
-![ol](/assets/ol_li.png)
-![ol](/assets/ol_li_hasil.png)
+![ol](/assets/Materi_2/ol_li.png)
+![ol](/assets/Materi_2/ol_li_hasil.png)
 
 **Unordered List** (tak berurutan): `<ul>` dengan item `<li>`. Berikut contohnya:
 
-![ul](/assets/ul_li.png)
-![ul](/assets/ul_li_hasil.png)
+![ul](/assets/Materi_2/ul_li.png)
+![ul](/assets/Materi_2/ul_li_hasil.png)
 
 ### Description LIst
 
@@ -64,8 +64,8 @@ Dokumen HTML dimulai dengan deklarasi `<!DOCTYPE html>`, lalu diikuti elemen:
 - `<dd>`: Deskripsi dari item tersebut.
 
 Berikut contohnya:
-![dl](/assets/dl.png)
-![dl_hasil](/assets/dl_hasil.png)
+![dl](/assets/Materi_2/dl.png)
+![dl_hasil](/assets/Materi_2/dl_hasil.png)
 
 ### Image
 
@@ -95,8 +95,8 @@ Pembuatan tabel:
 - `<td>`: Data dalam sel.
 
 Contoh:
-![table](/assets/table.png)
-![table_hasil](/assets/table_hasil.png)
+![table](/assets/Materi_2/table.png)
+![table_hasil](/assets/Materi_2/table_hasil.png)
 
 ### iframe
 
