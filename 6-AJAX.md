@@ -59,3 +59,5 @@ $("button").click(function(){
   });
 });
 ```
+
+[< Kembali](silabus.md) [Selanjutnya >](7-PHP.md)

@@ -71,3 +71,5 @@ elemen sintaksis URL:
 ## HTTP Response Code
 
 ![HTTP Response Code](/assets/Materi_1/HTTPStatusCodes.png)
+
+[< Kembali](silabus.md) [Selanjutnya >](2-HTML.md)

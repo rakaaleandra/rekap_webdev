@@ -94,3 +94,5 @@ Untuk mengubah/mengisi elemen, Metode yang sama: `text()`, `html()`, `val()`, da
 - `prepend()` – tambahkan ke awal elemen terpilih.
 - `after()` – tambahkan setelah elemen.
 - `before()` – tambahkan sebelum elemen.
+  
+[< Kembali](silabus.md) [Selanjutnya >](6-AJAX.md)

@@ -103,3 +103,5 @@ Contoh:
 Menyisipkan konten eksternal seperti video, peta, atau dokumen dari situs lain. Atribut yang ada:
 - `src`: URL konten yang disisipkan.
 - Atribut tambahan dapat mengatur tampilan dan batas.
+
+[< Kembali](silabus.md) [Selanjutnya >](3-CSS.md)
