@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+
+</head>
+<body>
+    <div>
+        <video src="/mini_project/assets/2024-12-07 14-52-28.mp4" controls width="900" id="pidio"></video>
+        <br>
+        <img src="/mini_project/assets/play.jpg" alt="" id="mulai" width="50">
+        <img src="/mini_project/assets/stop.jpg" alt="" id="stop" width="50">
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        let $pidio = $('#pidio');
+        let $mulai = $("#mulai");
+        let $stop = $("#stop");
+
+        // $pidio.on('ended', function(){
+        //     $mulai.attr('src', '/mini_project/assets/Play Button Silhouette PNG Images, Black Vector Play Button Icon, Play Icons, Button Icons, Black Icons PNG Image For Free Download.jpg');
+        // });
+
+        $pidio.end(function(){
+            $mulai.attr('src', '/mini_project/assets/stop.jpg');
+        })
+        
+        $mulai.click(function(){
+            if ($pidio[0].paused) {
+                $pidio[0].play();
+                $mulai.attr('src', '/mini_project/assets/pause.jpg');
+            } else {
+                $pidio[0].pause();
+                $mulai.attr('src', '/mini_project/assets/play.jpg');
+            }
+        })
+
+        $stop.click(function(){
+            $pidio[0].currentTime = 0;
+        })
+    })
+
+</script>
+</html>

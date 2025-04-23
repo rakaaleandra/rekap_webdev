@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan AJAX</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+</head>
+<body>
+    <div>
+        <button type="button" onclick="AmbilData()">Murni AJAX</button>
+        <button type="button" id="jquery">JQuery AJAX</button>
+        <button type="button" id="jqueryAjax">JQuery $ajax()</button>
+        <p id="Summon"></p>
+        <br />
+        <button type="button" id="load-data">Load Data</button>
+        <div id="payload"></div>
+    </div>
+</body>
+<script>
+    function AmbilData(){
+        const xml = new XMLHttpRequest();
+
+        xml.onload =function(){
+            document.getElementById('Summon').innerText = this.responseText;
+        }
+
+        xml.open('GET', '../test/testing.txt');
+
+        xml.send();
+    }
+
+    $(document).ready(function(){
+        $("#jquery").click(function(){
+            $('#Summon').load('../test/testing.txt');
+        })
+
+        $('#jqueryAjax').click(function(){
+            $.ajax({
+                url: "../test/testing.txt",
+                type: "GET",
+                success: function(result){
+                    $('#Summon').html(result);
+                }
+            })
+        });
+
+        $('#load-data').click(function(){
+            $.ajax({
+                url: "https://weather-api-tau-six.vercel.app/provinces",
+                type: "GET",
+                success: function(result){
+                    // console.log(result);
+                    let res = result.data;
+                    let output = "";
+                    $.each(res, function(key, value){
+                        output += (key + 1) + ": " + value.name + "<br />"
+                    })
+
+                    $('#payload').html(output);
+                }
+            })
+        })
+    })
+</script>
+<style>
+    body{
+        margin: 50px;
+    }
+    button{
+        display: block;
+        margin-bottom:20px;
+    }
+</style>
+</html>
