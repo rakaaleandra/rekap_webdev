@@ -72,4 +72,21 @@ elemen sintaksis URL:
 
 ![HTTP Response Code](/assets/Materi_1/HTTPStatusCodes.png)
 
+- 2XX
+  - **200**: Permintaan berhasil, dan server mengembalikan data yang diminta.
+- 3XX
+  - **301**: **(Moved Permanently)** Resource telah dipindahkan secara permanen ke URL baru.
+  - **302**: **Found (Temporary Redirect)** Sementara dialihkan ke URL lain, tapi URL asli masih bisa digunakan di masa depan.
+  - **304**: **(Not Modified)** Resource belum berubah sejak terakhir kali diminta. Bisa gunakan versi cache.
+- 4XX
+  - **401**: **(Unauthorized)** Klien belum melakukan otentikasi atau kredensial salah.
+  - **403**: **(Forbidden)** Server memahami permintaan, tapi menolak untuk memenuhinya (tidak punya izin).
+  - **404**: **(Not Found)** Resource yang diminta tidak ditemukan di server.
+  - **405**: **(Method Not Allowed)** Metode HTTP (GET, POST, dll) tidak diizinkan untuk resource tersebut.
+- 5XX
+  - **501**: **(Not Implemented)** Server tidak mengenali metode permintaan atau belum didukung.
+  - **502**: **(Bad Gateway)** Server bertindak sebagai gateway/proxy dan menerima respon tidak valid dari server lain.
+  - **503**: **(Service Unavailable)** Server sedang tidak tersedia (biasanya karena overload atau maintenance).
+  - **504**: **(Gateway Timeout)** Server bertindak sebagai gateway dan tidak mendapatkan respons tepat waktu dari server upstream.
+
 [< Kembali](silabus.md) [Selanjutnya >](2-HTML.md)
