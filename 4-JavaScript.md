@@ -87,3 +87,5 @@ function myFunction() {
   alert("Hello World!");
 }
 ```
+
+[< Kembali](silabus.md) [Selanjutnya >](5-JQuery.md)

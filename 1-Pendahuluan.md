@@ -53,10 +53,10 @@ elemen sintaksis URL:
 ## Port yang Mendunia
 
 - **Port 80**: HTTP - Menampilkan halaman web
-- **Port**: HTTPS - Komunkasi aman melalui HTTP
-- **Port**: SMTP - Pengeriman email
-- **Port**: SSH - Login jarak jauh yang aman dan transfer file
-- **Port**: FTP - Transfer file antara klien dan server
+- **Port 443**: HTTPS - Komunkasi aman melalui HTTP
+- **Port 25**: SMTP - Pengeriman email
+- **Port 22**: SSH - Login jarak jauh yang aman dan transfer file
+- **Port 21**: FTP - Transfer file antara klien dan server
 
 ## HTTP & HTTPS
 
