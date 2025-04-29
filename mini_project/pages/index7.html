@@ -51,14 +51,14 @@
 
         $('#load-data').click(function(){
             $.ajax({
-                url: "https://weather-api-tau-six.vercel.app/provinces",
+                url: "https://www.googleapis.com/books/v1/volumes?q=harry",
                 type: "GET",
                 success: function(result){
-                    // console.log(result);
-                    let res = result.data;
+                    console.log(result);
+                    let res = result.items;
                     let output = "";
                     $.each(res, function(key, value){
-                        output += (key + 1) + ": " + value.name + "<br />"
+                        output += (key + 1) + ": " + value.volume.title + "<br />"
                     })
 
                     $('#payload').html(output);
